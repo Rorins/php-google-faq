@@ -55,9 +55,26 @@ Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescinde
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Question and Answers</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+<header>
+    <div class="logo">
+    <img src="./google.PNG" alt="google">
+    <h3>Privacy e Termini</h3>
+    </div>
+
+    <ul>
+        <li><a href="">Introduzione</a></li>
+        <li><a href="">Norme sulla privacy</a></li>
+        <li><a href="">Termini di servizio</a></li>
+        <li><a href="">Tecnologie</a></li>
+        <li><a href="">Domande frequenti</a></li>
+    </ul>
+   
+</header>
 
 <?php
 foreach($qAndA as $element){?>
