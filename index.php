@@ -76,11 +76,17 @@ Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescinde
    
 </header>
 
+<main>
 <?php
 foreach($qAndA as $element){?>
     <h2><?php echo $element['question'];?></h2>
     <p><?php echo $element['answer'];?><p>
 <?php }?>
+</main>
+
+<footer>
+
+</footer>
 
 </body>
 </html>
