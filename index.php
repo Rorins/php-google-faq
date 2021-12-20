@@ -3,7 +3,7 @@
  di queste domande e risposte con PHP. -->
 
  <?php
- $QandA = [
+ $qAndA = [
 [
     'question' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
     'answer' => "La recente decisione della Corte di giustizia dell'Unione europea ha profonde conseguenze per i motori di ricerca in Europa. La Corte ha stabilito che alcuni utenti hanno il diritto di chiedere ai motori di ricerca come Google di rimuovere risultati relativi a chiavi di ricerca che includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati, irrilevanti o non più rilevanti, o eccessivi.
@@ -60,11 +60,10 @@ Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescinde
 <body>
 
 <?php
-foreach($QandA as $element){
-    echo $element['question'];
-    echo $element['answer'];
- };
-?>
+foreach($qAndA as $element){?>
+    <h2><?php echo $element['question'];?></h2>
+    <p><?php echo $element['answer'];?><p>
+<?php }?>
 
 </body>
 </html>
